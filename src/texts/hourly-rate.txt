@@ -1,6 +1,6 @@
 :money_with_wings: You are a freelancer.
 
-As an employee you would want to earn a salary of ${50000-200000:salary} dollars per year.
+As an employee you would want to earn a salary of ${100000:salary} dollars per year.
 
 :money_bag: You will need to pay ${0-1000:monthly_tools} a month and ${0-10000:yearly_tools} a year for tools, services, and software you need to do your job. :laptop:
 
