@@ -18,7 +18,7 @@ ReactDOM.render(
           <App />
         </Route>
         <Route path="/">
-          <Redirect to="/soda" />
+          <Redirect to="/hourly-rate" />
         </Route>
       </Switch>
     </Router>

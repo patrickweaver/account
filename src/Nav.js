@@ -42,7 +42,11 @@ function Nav(props) {
         <div id="inner-nav">{[Object.keys(props.textVars).map(makeLink)]}</div>
         <div id="footer">
           <p>
-            This is{" "}
+            This is a remix by{" "}
+            <b>
+              <a href="https://patrickweaver.net">Patrick Weaver</a>{" "}
+            </b>
+            of{" "}
             <b>
               <a href="https://github.com/postlight/account">Account</a>
             </b>
