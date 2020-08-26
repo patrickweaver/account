@@ -8,9 +8,7 @@ Your health insurance will cost ${1200:health_insurance} a month.:hospital:
 
 To hit the eqiuvalent of your desired salary and accounting for self-employment taxes (in the U.S.) you'll need to earn ${=((salary + (monthly_tools * 12) + yearly_tools) * 1.15) + health_insurance * 12:taxes_salary} a year.:bank:
 
-You will want to take {0-7:vacation_weeks} weeks of vacation, {0-20:holidays} holidays, and allow for {0-25:sick_days} sick days. You will work {=(52 * 5) - (vacation_weeks * 5) - holidays - sick_days:work_days} days a year.:calendar:
-
-
+You will want to take {0-7:vacation_weeks} weeks of vacation, {0-20:holidays} holidays, and allow for {0-25:sick_days} sick days. You will want to spend {0-10:professional_development} days a year attending conferences and learning. You will work {=(52 * 5) - (vacation_weeks * 5) - holidays - sick_days - professional_development:work_days} days a year.:calendar:
 
 You will work {8:day_hours} hours a day, but {0-4:non_billable_hours} of those hours will go towards sustaining your business and not client work. You want to do {0-40:pro_bono_hours} hours of pro-bono work a month. You will have {=(work_days * (day_hours - non_billable_hours)) - (pro_bono_hours * 12):billable_hours} billable hours a year.:hourglass_flowing_sand:
 
